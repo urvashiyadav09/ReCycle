@@ -1,0 +1,266 @@
+.companyInfo {
+	&__heading {
+		font-family: $headingfont;
+		font-size: $heading1-font-size;
+		font-weight: bold;
+		padding-top: 2.6rem;
+	}
+
+	&__text {
+		font-family: $textfont;
+		font-size: $text-font-size;
+		word-spacing: $text-word-spacing;
+		padding-top: 0.8rem;
+		padding-left: 1rem;
+	}
+}
+
+.companyGuides {
+	&__heading {
+		font-family: $headingfont;
+		font-size: $heading2-font-size;
+		font-weight: bold;
+	}
+
+	&__guideCol {
+		float: left;
+		width: 20%;
+		text-align: center;
+		padding-top: 1rem;
+
+		&__guideName {
+			font-family: $headingfont;
+			font-size: $guideName-font-size;
+			padding-top: 0.3rem;
+		}
+	}
+}
+
+.customerFeedback {
+	&__heading {
+		font-family: $headingfont;
+		font-size: $heading1-font-size;
+		font-weight: bold;
+	}
+
+	&__testCol {
+		&__text {
+			float: left;
+			width: 45%;
+			text-align: centre;
+			margin-left: 2%;
+			padding-left: 2rem;
+			font-family: $textfont;
+			font-size: $testimonialText-font-size;
+			font-style: italic;
+			word-spacing: $text-word-spacing;
+			padding-top: 1rem;
+		}
+
+		&--reivewerName {
+			font-weight: bold;
+			padding-left: 0.5rem;
+			font-style: initial;
+		}
+	}
+}
+
+//media query
+@media (max-width:$media-breakpoint-ipadPro) {
+	.companyInfo {
+		&__text {
+			font-size: 1.3em;
+		}	
+	}
+     .companyGuides{
+      &__guideCol {
+         width: 30%;
+		}
+		&__guideCol {
+			font-size: 1.5em;
+		}
+	}
+	.customerFeedback {
+		&__testCol {
+		   &__text {
+			 font-size: 1.3em;
+		   } 
+		}
+	}
+}
+
+
+@media (max-width:$media-breakpoint-ipad) {
+    .companyGuides{
+      &__guideCol {
+         width: 40%;
+        
+       }
+    }
+}
+
+@media (max-width:$media-breakpoint-iphone6-7-8plus) {
+    .container{
+        padding-bottom: 1rem;
+    }
+    .companyInfo {
+		&__heading {
+            font-size: $heading1-font-size-small-screen;
+            padding-top: 1rem;
+        }
+        &__text {
+			padding-top: 0.2rem;
+			font-size: 0.8em;
+		}
+    }        
+    .companyGuides {
+        &__heading {
+            font-size: $heading2-font-size-small-screen;
+        }    
+        &__guideCol {
+			float: none;
+
+			&__img {
+				padding-left: 3rem;
+            }
+            &__guideName {
+				font-size: 0.7em;
+				padding-left: 6rem;
+			}
+        }    
+    }
+
+    .customerFeedback {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 2rem;
+		}
+
+		&__testCol {
+			&__text {
+                width: 90%;
+                padding-left: 1rem;
+				text-align: left;
+				font-size: 0.8em;
+			}
+		}
+	}
+}
+
+
+@media (max-width:$media-breakpoint-pixel2) {
+    .companyInfo {
+		&__heading {
+			font-size: $heading1-font-size-small-screen;
+			padding-top: 1.8rem;
+			padding-left: 1rem;
+		}
+
+		&__text {
+			padding-top: 0.5rem;
+			font-size: 0.8em;
+		}
+    } 
+    
+    .companyGuides {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-left: 1.5rem;
+		}
+
+		&__guideCol {
+			float: none;
+
+			&__img {
+				padding-left: 3rem;
+			}
+
+			&__guideName {
+				font-size: $guideName-font-size-small-screen;
+				padding-left: 6rem;
+				font-size: 0.6em;
+			}
+		}
+	}
+
+	.customerFeedback {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-left: 1.5rem;
+		}
+
+		&__testCol {
+			&__text {
+				float: none;
+				width: 90%;
+				font-size: 0.8em;
+			}
+		}
+	}
+
+}
+
+@media (max-width:$media-breakpoint-small-screen) {
+	.companyInfo {
+		&__heading {
+			font-size: $heading1-font-size-small-screen;
+			padding-top: 1.8rem;
+			padding-left: 1rem;
+		}
+
+		&__text {
+			font-size: $text-font-size-small-screen;
+			padding-top: 0.5rem;
+		}
+	}
+
+	.companyGuides {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-left: 1.5rem;
+		}
+
+		&__guideCol {
+			float: none;
+
+			&__img {
+				padding-left: 3rem;
+			}
+
+			&__guideName {
+				font-size: 0.7em;
+				padding-left: 6rem;
+			}
+		}
+	}
+
+	.customerFeedback {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-left: 1.5rem;
+		}
+
+		&__testCol {
+			&__text {
+				float: none;
+				width: 90%;
+			}
+		}
+	}
+}
+
+@media(max-width:$media-breakpoint-iphoneSE){
+	.companyGuides {
+	&__guideCol {
+		float: none;
+
+		&__img {
+			padding-left: 1.5rem;
+		}
+		&__guideName {
+			font-size: 0.6em;
+			padding-left: 5rem;
+		}
+	}
+}	
+}

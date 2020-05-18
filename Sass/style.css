@@ -1,0 +1,992 @@
+@import url("https://fonts.googleapis.com/css?family=Charmonman|Manrope|Roboto&display=swap");
+::placeholder {
+  font-style: italic;
+}
+
+.navbar {
+  background-color: #26BDCC;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar .navbar-brand {
+  color: #FFC600 !important;
+  font-family: "Charmonman", cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+.navbar-nav a:link {
+  color: #FFFFFF;
+}
+
+.navbar-nav a:visited {
+  color: #000000;
+}
+
+.navbar-nav a:hover {
+  color: #D85930;
+}
+
+.navbar-nav a:active {
+  color: #FFFFFF;
+}
+
+.nav-tabs a:hover {
+  color: #D85930;
+}
+
+@media (max-width: 1024px) {
+  .navbar img {
+    width: 90%;
+  }
+
+  navbar-brand .logo {
+    font-size: 3em;
+  }
+
+  .nav-item {
+    font-size: 1.5em;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  .navbar img {
+    width: 90%;
+  }
+
+  navbar-brand .logo {
+    font-size: 3em;
+  }
+
+  .nav-item {
+    font-size: 1em;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 414px) {
+  .navbar img {
+    width: 90%;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1em;
+    padding-left: 0rem;
+    padding-right: 4rem;
+  }
+
+  .nav-item {
+    font-size: 1em;
+  }
+}
+@media (max-width: 411px) {
+  .navbar-toggler-icon {
+    margin-top: 1.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .navbar img {
+    width: 90%;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1em;
+    padding-left: 0rem;
+    padding-right: 3rem;
+  }
+
+  .nav-item {
+    font-size: 1em;
+  }
+}
+@media (max-width: 360px) {
+  .navbar-toggler-icon {
+    margin-top: 1.1rem;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1em;
+    padding-left: 0rem;
+    padding-right: 1.2rem;
+  }
+}
+@media (max-width: 320px) {
+  .navbar img {
+    width: 90%;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1em;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .navbar-toggler-icon {
+    margin-top: 1rem;
+  }
+
+  .nav-item {
+    font-size: 1em;
+  }
+}
+footer {
+  background-color: #26BDCC;
+  margin-top: 0.3rem;
+}
+
+footer p {
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    margin-top: 7.25rem;
+  }
+
+  footer p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    margin-top: 4.5rem;
+  }
+
+  footer p {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 414px) {
+  footer {
+    margin-top: 0.8rem;
+  }
+
+  footer p {
+    font-size: 0.6em;
+  }
+}
+.carousel-indicators .active {
+  background-color: #E18453;
+}
+
+.nav-tabs {
+  margin-top: 3rem;
+}
+
+.tab-pane__img {
+  float: left;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+.tab-pane__text {
+  float: right;
+  padding-top: 4rem;
+  width: 52%;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9em;
+  word-spacing: 0.2rem;
+}
+.tab-pane__galleryColumns {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  float: left;
+}
+.tab-pane__galleryColumns__img {
+  padding-top: 0.3rem;
+}
+
+.container {
+  padding-bottom: 5rem;
+}
+
+.smallScreenContent {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .carousel__img {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .smallScreenContent {
+    display: none;
+  }
+
+  .nav-tabs {
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .tab-pane__img {
+    width: 60%;
+  }
+  .tab-pane__text {
+    padding-top: 2rem;
+    width: 35%;
+    font-size: 1.4em;
+  }
+  .tab-pane__galleryColumns {
+    padding-left: 1rem;
+  }
+  .tab-pane__galleryColumns__img {
+    width: 48%;
+    padding-top: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel__img {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .smallScreenContent {
+    display: none;
+  }
+
+  .tab-pane__img {
+    width: 60%;
+  }
+  .tab-pane__text {
+    float: right;
+    padding-top: 2rem;
+    width: 35%;
+    font-size: 1em;
+  }
+  .tab-pane__galleryColumns {
+    padding-left: 1rem;
+  }
+  .tab-pane__galleryColumns__img {
+    width: 48%;
+    padding-top: 0.5rem;
+  }
+}
+@media (max-width: 414px) {
+  .carousel__img {
+    width: 100%;
+    height: 26vh;
+  }
+
+  .bigScreenSizeContent {
+    display: none;
+  }
+
+  .smallScreenContent {
+    display: block;
+    padding-top: 1rem;
+  }
+  .smallScreenContent__insideColumns__heading2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .smallScreenContent__insideColumns__img {
+    width: 92%;
+    margin-left: 0.8rem;
+  }
+  .smallScreenContent__insideColumns__paraText {
+    padding-top: 1rem;
+    font-size: 0.8em;
+    font-family: "Manrope", sans-serif;
+  }
+  .smallScreenContent__insideColumns__galleryColumns__img {
+    width: 92%;
+    padding-top: 0.3rem;
+    margin-left: 0.8rem;
+  }
+}
+@media (max-width: 411px) {
+  .carousel__img {
+    width: 100%;
+    height: 28vh;
+  }
+
+  .bigScreenSizeContent {
+    display: none;
+  }
+
+  .smallScreenContent {
+    display: block;
+    padding-top: 1rem;
+  }
+  .smallScreenContent__insideColumns__heading2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .smallScreenContent__insideColumns__img {
+    width: 92%;
+    margin-left: 0.8rem;
+  }
+  .smallScreenContent__insideColumns__paraText {
+    padding-top: 1rem;
+    font-size: 0.8em;
+    font-family: "Manrope", sans-serif;
+  }
+  .smallScreenContent__insideColumns__galleryColumns__img {
+    width: 92%;
+    padding-top: 0.3rem;
+    margin-left: 0.8rem;
+  }
+}
+@media (max-width: 360px) {
+  .carousel__img {
+    width: 100%;
+    height: 26vh;
+  }
+
+  .bigScreenSizeContent {
+    display: none;
+  }
+
+  .smallScreenContent {
+    display: block;
+    padding-top: 1rem;
+  }
+  .smallScreenContent__insideColumns__heading2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .smallScreenContent__insideColumns__img {
+    width: 92%;
+    margin-left: 0.8rem;
+  }
+  .smallScreenContent__insideColumns__paraText {
+    padding-top: 1rem;
+    font-size: 0.8em;
+    font-family: "Manrope", sans-serif;
+  }
+  .smallScreenContent__insideColumns__galleryColumns__img {
+    width: 92%;
+    padding-top: 0.3rem;
+    margin-left: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .smallScreenContent {
+    padding-top: 0.5rem;
+  }
+  .smallScreenContent__insideColumns__heading2 {
+    font-size: 1em;
+  }
+}
+.companyInfo__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-top: 2.6rem;
+}
+.companyInfo__text {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9em;
+  word-spacing: 0.2rem;
+  padding-top: 0.8rem;
+  padding-left: 1rem;
+}
+
+.companyGuides__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.companyGuides__guideCol {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding-top: 1rem;
+}
+.companyGuides__guideCol__guideName {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  padding-top: 0.3rem;
+}
+
+.customerFeedback__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.customerFeedback__testCol__text {
+  float: left;
+  width: 45%;
+  text-align: centre;
+  margin-left: 2%;
+  padding-left: 2rem;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+  word-spacing: 0.2rem;
+  padding-top: 1rem;
+}
+.customerFeedback__testCol--reivewerName {
+  font-weight: bold;
+  padding-left: 0.5rem;
+  font-style: initial;
+}
+
+@media (max-width: 1024px) {
+  .companyInfo__text {
+    font-size: 1.3em;
+  }
+
+  .companyGuides__guideCol {
+    width: 30%;
+  }
+  .companyGuides__guideCol {
+    font-size: 1.5em;
+  }
+
+  .customerFeedback__testCol__text {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 768px) {
+  .companyGuides__guideCol {
+    width: 40%;
+  }
+}
+@media (max-width: 414px) {
+  .container {
+    padding-bottom: 1rem;
+  }
+
+  .companyInfo__heading {
+    font-size: 1.3em;
+    padding-top: 1rem;
+  }
+  .companyInfo__text {
+    padding-top: 0.2rem;
+    font-size: 0.8em;
+  }
+
+  .companyGuides__heading {
+    font-size: 1.2em;
+  }
+  .companyGuides__guideCol {
+    float: none;
+  }
+  .companyGuides__guideCol__img {
+    padding-left: 3rem;
+  }
+  .companyGuides__guideCol__guideName {
+    font-size: 0.7em;
+    padding-left: 6rem;
+  }
+
+  .customerFeedback__heading {
+    font-size: 1.2em;
+    padding-top: 2rem;
+  }
+  .customerFeedback__testCol__text {
+    width: 90%;
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 411px) {
+  .companyInfo__heading {
+    font-size: 1.3em;
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+  }
+  .companyInfo__text {
+    padding-top: 0.5rem;
+    font-size: 0.8em;
+  }
+
+  .companyGuides__heading {
+    font-size: 1.2em;
+    padding-left: 1.5rem;
+  }
+  .companyGuides__guideCol {
+    float: none;
+  }
+  .companyGuides__guideCol__img {
+    padding-left: 3rem;
+  }
+  .companyGuides__guideCol__guideName {
+    font-size: 0.9em;
+    padding-left: 6rem;
+    font-size: 0.6em;
+  }
+
+  .customerFeedback__heading {
+    font-size: 1.2em;
+    padding-left: 1.5rem;
+  }
+  .customerFeedback__testCol__text {
+    float: none;
+    width: 90%;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 360px) {
+  .companyInfo__heading {
+    font-size: 1.3em;
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+  }
+  .companyInfo__text {
+    font-size: 0.7em;
+    padding-top: 0.5rem;
+  }
+
+  .companyGuides__heading {
+    font-size: 1.2em;
+    padding-left: 1.5rem;
+  }
+  .companyGuides__guideCol {
+    float: none;
+  }
+  .companyGuides__guideCol__img {
+    padding-left: 3rem;
+  }
+  .companyGuides__guideCol__guideName {
+    font-size: 0.7em;
+    padding-left: 6rem;
+  }
+
+  .customerFeedback__heading {
+    font-size: 1.2em;
+    padding-left: 1.5rem;
+  }
+  .customerFeedback__testCol__text {
+    float: none;
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  .companyGuides__guideCol {
+    float: none;
+  }
+  .companyGuides__guideCol__img {
+    padding-left: 1.5rem;
+  }
+  .companyGuides__guideCol__guideName {
+    font-size: 0.6em;
+    padding-left: 5rem;
+  }
+}
+.meetingPoints__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 3rem;
+}
+.meetingPoints__ul {
+  padding-left: 5rem;
+}
+.meetingPoints__ul__list {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9em;
+  word-spacing: 0.2rem;
+  padding-top: 1rem;
+}
+
+.cyclingRoutes__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.cyclingRoutes__blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  grid-gap: 8%;
+  padding-bottom: 1rem;
+}
+.cyclingRoutes__blocks__route1__para {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9em;
+  word-spacing: 0.2rem;
+  padding-top: 0.8rem;
+  padding-left: 2rem;
+  width: 85%;
+}
+.cyclingRoutes__blocks__route1__img, .cyclingRoutes__blocks__route1__map {
+  padding-left: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-bottom: 2rem;
+  }
+
+  .meetingPoints__heading {
+    font-size: 1.5em;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  .meetingPoints__ul__list {
+    font-size: 1.3em;
+    padding-top: 1rem;
+  }
+
+  .cyclingRoutes__heading {
+    font-size: 1.5em;
+  }
+  .cyclingRoutes__blocks__route1__para {
+    font-size: 1.3em;
+  }
+  .cyclingRoutes__blocks__route1__img, .cyclingRoutes__blocks__route1__map {
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding-bottom: 2rem;
+  }
+
+  .meetingPoints__heading {
+    font-size: 1.5em;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  .meetingPoints__ul__list {
+    font-size: 1em;
+    padding-top: 1rem;
+  }
+
+  .cyclingRoutes__heading {
+    font-size: 1.5em;
+  }
+  .cyclingRoutes__blocks__route1__para {
+    font-size: 1em;
+  }
+  .cyclingRoutes__blocks__route1__img, .cyclingRoutes__blocks__route1__map {
+    width: 85%;
+  }
+}
+@media (max-width: 414px) {
+  .meetingPoints__heading {
+    font-size: 1.2em;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  .meetingPoints__ul__list {
+    font-size: 0.8em;
+    padding-top: 1rem;
+  }
+
+  .cyclingRoutes__heading {
+    font-size: 1.2em;
+    padding-top: 0rem;
+    padding-left: 1.5rem;
+  }
+  .cyclingRoutes__blocks {
+    display: inline-block;
+    grid-template-columns: none;
+    grid-gap: none;
+  }
+  .cyclingRoutes__blocks__route1 {
+    padding-top: 0rem;
+  }
+  .cyclingRoutes__blocks__route1__para {
+    font-size: 0.8em;
+    padding-top: 1rem;
+    width: 90%;
+  }
+  .cyclingRoutes__blocks__route1__img, .cyclingRoutes__blocks__route1__map {
+    width: 85%;
+  }
+}
+@media (max-width: 411px) {
+  .container {
+    padding-bottom: 2rem;
+  }
+
+  .meetingPoints__heading {
+    font-size: 1.2em;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  .meetingPoints__ul__list {
+    padding-top: 1rem;
+  }
+
+  .cyclingRoutes__heading {
+    font-size: 1.2em;
+    padding-top: 0rem;
+    padding-left: 1.5rem;
+  }
+  .cyclingRoutes__blocks {
+    display: inline-block;
+    grid-template-columns: none;
+    grid-gap: none;
+  }
+  .cyclingRoutes__blocks__route1 {
+    padding-top: 1.5rem;
+  }
+  .cyclingRoutes__blocks__route1__para {
+    padding-top: 0.5rem;
+    width: 90%;
+  }
+  .cyclingRoutes__blocks__route1__img, .cyclingRoutes__blocks__route1__map {
+    width: 85%;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    padding-bottom: 2rem;
+  }
+
+  .meetingPoints__heading {
+    font-size: 1.2em;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  .meetingPoints__ul__list {
+    font-size: 0.7em;
+    padding-top: 1rem;
+  }
+
+  .cyclingRoutes__heading {
+    font-size: 1.2em;
+    padding-top: 0rem;
+    padding-left: 1.5rem;
+  }
+  .cyclingRoutes__blocks {
+    display: inline-block;
+    grid-template-columns: none;
+    grid-gap: none;
+  }
+  .cyclingRoutes__blocks__route1 {
+    padding-top: 1.5rem;
+  }
+  .cyclingRoutes__blocks__route1__para {
+    font-size: 0.7em;
+    padding-top: 0.5rem;
+    width: 90%;
+  }
+  .cyclingRoutes__blocks__route1__img, .cyclingRoutes__blocks__route1__map {
+    width: 85%;
+  }
+}
+.contact__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 2.6rem;
+}
+.contact__visitingHeading, .contact__postalHeading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 1.5rem;
+}
+.contact__text, .contact__postaltext {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9em;
+  word-spacing: 0.2rem;
+  padding-left: 2rem;
+}
+
+.contactForm {
+  margin-top: 4rem;
+  margin-bottom: 3.65rem;
+}
+.contactForm__heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+.contactForm__input {
+  width: 90%;
+  margin-top: 0.8rem;
+  margin-left: 1.5rem;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.8em;
+}
+.contactForm__button {
+  height: 2rem;
+  width: 18%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 77%;
+  background-color: #8C041D;
+  border: none;
+}
+.contactForm__button--text {
+  color: #FFFFFF;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .contact__heading {
+    font-size: 1.8em;
+  }
+  .contact__visitingHeading, .contact__postalHeading {
+    font-size: 1.3em;
+  }
+  .contact__text, .contact__postaltext {
+    font-size: 1.3em;
+  }
+
+  .contactForm {
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+  }
+  .contactForm__heading {
+    font-size: 1.5em;
+  }
+  .contactForm__input {
+    font-size: 1.3em;
+  }
+  .contactForm__button {
+    height: 2.5rem;
+  }
+  .contactForm__button--text {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 768px) {
+  .contact__heading {
+    font-size: 1.5em;
+  }
+  .contact__visitingHeading, .contact__postalHeading {
+    font-size: 1.2em;
+  }
+  .contact__text, .contact__postaltext {
+    font-size: 1.1em;
+  }
+
+  .contactForm {
+    margin-top: 3rem;
+  }
+  .contactForm__heading {
+    font-size: 1.5em;
+  }
+  .contactForm__input {
+    font-size: 1em;
+  }
+  .contactForm__button {
+    height: 2.5rem;
+  }
+  .contactForm__button--text {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 414px) {
+  .contact__heading {
+    font-size: 1em;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .contact__visitingHeading, .contact__postalHeading {
+    font-size: 0.8em;
+    padding-left: 2.2rem;
+  }
+  .contact__text, .contact__postaltext {
+    padding-left: 3rem;
+    font-size: 0.8em;
+  }
+
+  .contactForm {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .contactForm__heading {
+    padding-left: 1.2rem;
+    font-size: 1em;
+  }
+  .contactForm__input {
+    width: 85%;
+    font-size: 0.7em;
+  }
+  .contactForm__button {
+    height: 2rem;
+    width: 18%;
+  }
+  .contactForm__button--text {
+    font-size: 1em;
+  }
+}
+@media (max-width: 411px) {
+  .contact__heading {
+    font-size: 1.2em;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .contact__visitingHeading, .contact__postalHeading {
+    font-size: 0.9em;
+    padding-left: 2.2rem;
+  }
+  .contact__text, .contact__postaltext {
+    padding-left: 3rem;
+  }
+
+  .contactForm {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .contactForm__heading {
+    padding-left: 1.2rem;
+  }
+  .contactForm__input {
+    width: 80%;
+    font-size: 0.7em;
+  }
+  .contactForm__button {
+    height: 2rem;
+    width: 18%;
+  }
+}
+@media (max-width: 360px) {
+  .contact__heading {
+    font-size: 1.2em;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .contact__visitingHeading, .contact__postalHeading {
+    font-size: 0.9em;
+    padding-left: 2.2rem;
+  }
+  .contact__text, .contact__postaltext {
+    font-size: 0.7em;
+    padding-left: 3rem;
+  }
+
+  .contactForm {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .contactForm__heading {
+    font-size: 0.9em;
+    padding-left: 1.2rem;
+  }
+  .contactForm__input {
+    width: 80%;
+    font-size: 0.6em;
+  }
+  .contactForm__button {
+    height: 2rem;
+    width: 18%;
+  }
+  .contactForm__button--text {
+    font-size: 0.8em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

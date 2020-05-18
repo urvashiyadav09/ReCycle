@@ -1,0 +1,270 @@
+.meetingPoints {
+	&__heading {
+		font-family: $headingfont;
+		font-size: $heading2-font-size;
+		font-weight: bold;
+		padding-top: 3rem;
+	}
+
+	&__ul {
+		padding-left: 5rem;
+
+		&__list {
+			font-family: $textfont;
+			font-size: $text-font-size;
+			word-spacing: $text-word-spacing;
+			padding-top: 1rem;
+		}
+	}
+}
+
+.cyclingRoutes {
+	&__heading {
+		font-family: $headingfont;
+		font-size: $heading2-font-size;
+		font-weight: bold;
+		padding-top: 2rem;
+	}
+
+	&__blocks {
+		display: grid;
+		grid-template-columns: repeat(2, 45%);
+		grid-gap: 8%;
+		padding-bottom: 1rem;
+
+		&__route1 {
+			&__para {
+				font-family: $textfont;
+				font-size: $text-font-size;
+				word-spacing: $text-word-spacing;
+				padding-top: 0.8rem;
+				padding-left: 2rem;
+				width: 85%;
+			}
+
+			&__img, &__map {
+				padding-left: 2rem;
+			}
+		}
+	}
+}
+
+//media query
+@media (max-width:$media-breakpoint-ipadPro) {
+	.container {
+		padding-bottom: 2rem;
+	}
+
+	.meetingPoints {
+		&__heading {
+			font-size: 1.5em;
+			padding-top: 2rem;
+			padding-left: 1.5rem;
+		}
+
+		&__ul {
+			&__list {
+				font-size: 1.3em;
+				padding-top: 1rem;
+			}
+		}
+	}
+
+	.cyclingRoutes {
+		&__heading {
+			font-size: 1.5em;
+		}
+
+		&__blocks {
+			&__route1 {
+				&__para {
+					font-size: 1.3em;
+				}
+
+				&__img, &__map {
+					width: 85%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:$media-breakpoint-ipad) {
+	.container {
+		padding-bottom: 2rem;
+	}
+
+	.meetingPoints {
+		&__heading {
+			font-size: 1.5em;
+			padding-top: 2rem;
+			padding-left: 1.5rem;
+		}
+
+		&__ul {
+			&__list {
+				font-size: 1em;
+				padding-top: 1rem;
+			}
+		}
+	}
+
+	.cyclingRoutes {
+		&__heading {
+			font-size: 1.5em;
+		}
+
+		&__blocks {
+			&__route1 {
+				&__para {
+					font-size: 1em;
+				}
+
+				&__img, &__map {
+					width: 85%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:$media-breakpoint-iphone6-7-8plus) {
+	.meetingPoints {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 2rem;
+			padding-left: 1.5rem;
+		}
+
+		&__ul {
+			&__list {
+				font-size: 0.8em;
+				padding-top: 1rem;
+			}
+		}
+	}
+
+	.cyclingRoutes {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 0rem;
+			padding-left: 1.5rem;
+		}
+
+		&__blocks {
+			display: inline-block;
+			grid-template-columns: none;
+			grid-gap: none;
+
+			&__route1 {
+				padding-top: 0rem;
+
+				&__para {
+					font-size: 0.8em;
+					padding-top: 1rem;
+					width: 90%;
+				}
+
+				&__img, &__map {
+					width: 85%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:$media-breakpoint-pixel2) {
+	.container {
+		padding-bottom: 2rem;
+	}
+
+	.meetingPoints {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 2rem;
+			padding-left: 1.5rem;
+		}
+
+		&__ul {
+			&__list {
+				padding-top: 1rem;
+			}
+		}
+	}
+
+	.cyclingRoutes {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 0rem;
+			padding-left: 1.5rem;
+		}
+
+		&__blocks {
+			display: inline-block;
+			grid-template-columns: none;
+			grid-gap: none;
+
+			&__route1 {
+				padding-top: 1.5rem;
+
+				&__para {
+					padding-top: 0.5rem;
+					width: 90%;
+				}
+
+				&__img, &__map {
+					width: 85%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:$media-breakpoint-small-screen) {
+	.container {
+		padding-bottom: 2rem;
+	}
+
+	.meetingPoints {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 2rem;
+			padding-left: 1.5rem;
+		}
+
+		&__ul {
+			&__list {
+				font-size: $text-font-size-small-screen;
+				padding-top: 1rem;
+			}
+		}
+	}
+
+	.cyclingRoutes {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 0rem;
+			padding-left: 1.5rem;
+		}
+
+		&__blocks {
+			display: inline-block;
+			grid-template-columns: none;
+			grid-gap: none;
+
+			&__route1 {
+				padding-top: 1.5rem;
+
+				&__para {
+					font-size: $text-font-size-small-screen;
+					padding-top: 0.5rem;
+					width: 90%;
+				}
+
+				&__img, &__map {
+					width: 85%;
+				}
+			}
+		}
+	}
+}

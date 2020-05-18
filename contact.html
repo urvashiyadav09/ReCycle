@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" , initial scale="1.0">
+  <title>Welcome to Re-Cycle</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="Sass/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-md">
+                    <div class="container-fluid">
+                        <a href="index.html"><img src='images/logo.png' alt="logo"></a>
+                        <a class="navbar-brand logo" href="index.html">Re-Cycle</a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#menuCollapse">
+							<span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse justify-content-end" id="menuCollapse">
+							<div class="navbar-nav nav-pills nav-fill">
+								<a href="index.html" class="nav-item nav-link">Home</a>
+								<a href="about.html" class="nav-item nav-link">About</a>
+                                <a href="tour.html" class="nav-item nav-link">Route/Tour</a>
+                                <a href="#" class="nav-item nav-link bg-info active">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+               <div class="contact">
+                  <h2 class="contact__heading">Contact Us</h2>
+                  <h3 class="contact__visitingHeading">Visiting Address:</h3>
+                  <p class="contact__text">Re-Cycle AS, <br>Street 123, <br>Postal Code 01230<br>Telephone: 912356781<br>Email: contact@recycle.com<br></p>
+                  <h3 class="contact__postalHeading">Postal Address:</h3>
+                  <p class="contact__postaltext">Re-Cycle AS, <br>P.O. Box: 1235<br>Postal Address: 43765<br> City Name<br>Country Name</p>
+                </div> 
+            </div>
+
+            <div class="col-sm-7">
+                <div class="contactForm bg-light">
+                   <h2 class="contactForm__heading">Contact</h2>
+                      <form>
+                        <input type="text" class="contactForm__input" placeholder="Name">
+                        <input type="text" class="contactForm__input" placeholder="Email">
+                        <input type="text" class="contactForm__input" placeholder="Phone">
+                        <textarea class="contactForm__input" rows="8" placeholder="Message"></textarea>
+                        <button type="submit" class="contactForm__button"><span class="contactForm__button--text">Send</span></button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 p-0">
+                    <p class="footer_para">© 2020 Copyright:Modified HTML/CSS CA with Bootstrap and Sass and BEM</p>
+                </div>
+            </div>
+            </div>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+@mixin placeholder{
+    ::placeholder{@content}
+}
+
+@include placeholder{
+    font-style: italic;
+   }

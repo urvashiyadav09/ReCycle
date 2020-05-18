@@ -1,0 +1,269 @@
+.contact {
+	&__heading {
+		font-family: $headingfont;
+		font-size: $heading2-font-size;
+		font-weight: bold;
+		padding-top: 2.6rem;
+	}
+
+	&__visitingHeading, &__postalHeading {
+		font-family: $headingfont;
+		font-size: $heading3-font-size;
+		font-weight: bold;
+		padding-left: 1.5rem;
+	}
+
+	&__text, &__postaltext {
+		font-family: $textfont;
+		font-size: $text-font-size;
+		word-spacing: $text-word-spacing;
+		padding-left: 2rem;
+	}
+}
+
+.contactForm {
+	margin-top: 4rem;
+	margin-bottom: 3.65rem;
+
+	&__heading {
+		font-family: $headingfont;
+		font-size: $heading3-font-size;
+		font-weight: bold;
+		padding-left: 1.5rem;
+		padding-top: 1rem;
+	}
+
+	&__input {
+		width: 90%;
+		margin-top: 0.8rem;
+		margin-left: 1.5rem;
+		font-family: $textfont;
+		font-size: 0.8em;
+	}
+
+	&__button {
+		height: 2rem;
+		width: 18%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 77%;
+		background-color: $button-background-color;
+		border: none;
+
+		&--text {
+			color: $active-link-color;
+			font-size: $heading3-font-size;
+			font-family: $headingfont;
+		}
+	}
+}
+
+//media query
+@media (max-width:$media-breakpoint-ipadPro) {
+	.contact {
+		&__heading {
+			font-size: 1.8em;
+		}
+
+		&__visitingHeading, &__postalHeading {
+			font-size: 1.3em;
+		
+		}
+
+		&__text, &__postaltext {
+			font-size: 1.3em;
+		}
+	}	
+
+	.contactForm {
+		margin-top: 4rem;
+		margin-bottom: 0rem;
+
+		&__heading {
+			font-size: 1.5em;
+		}
+
+		&__input {
+		font-size: 1.3em;
+		}
+
+		&__button {
+			height: 2.5rem;
+			
+
+			&--text {
+				font-size: 1.5em;
+			}
+		}
+	}
+}
+
+@media (max-width:$media-breakpoint-ipad) {
+	.contact {
+		&__heading {
+			font-size: 1.5em;
+		}
+
+		&__visitingHeading, &__postalHeading {
+			font-size: 1.2em;
+		
+		}
+
+		&__text, &__postaltext {
+			font-size: 1.1em;
+		}
+	}	
+
+	.contactForm {
+		margin-top: 3rem;
+	
+		&__heading {
+			font-size: 1.5em;
+		}
+
+		&__input {
+		font-size: 1em;
+		}
+
+		&__button {
+			height: 2.5rem;
+			
+
+			&--text {
+				font-size: 1.2em;
+			}
+		}
+	}
+}
+@media (max-width:$media-breakpoint-iphone6-7-8plus) {
+    .contact {
+		&__heading {
+			font-size: 1em;
+			padding-top: 1.5rem;
+			padding-left: 1.5rem;
+        } 
+
+        &__visitingHeading, &__postalHeading {
+			font-size: 0.8em;
+			padding-left: 2.2rem;
+        }
+        
+        &__text, &__postaltext {
+			padding-left: 3rem;
+			font-size: 0.8em;
+		}
+    } 
+    
+    .contactForm {
+		margin-top: 2rem;
+		margin-bottom: 0rem;
+
+		&__heading {
+			padding-left: 1.2rem;
+			font-size: 1em;
+		}
+
+		&__input {
+			width: 85%;
+			font-size: $text-font-size-small-screen;
+		}
+
+		&__button {
+			height: 2rem;
+			width: 18%;
+			&--text {
+				font-size: 1em;
+			}
+		}
+	}
+}
+
+@media (max-width:$media-breakpoint-pixel2) {
+    .contact {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 1.5rem;
+			padding-left: 1.5rem;
+        } 
+        &__visitingHeading, &__postalHeading {
+			font-size: $heading3-font-size-small-screen;
+			padding-left: 2.2rem;
+		}
+
+		&__text, &__postaltext {
+			padding-left: 3rem;
+		}
+    } 
+    
+    .contactForm {
+		margin-top: 2rem;
+		margin-bottom: 0rem;
+
+		&__heading {
+			padding-left: 1.2rem;
+		}
+
+		&__input {
+			width: 80%;
+			font-size: $text-font-size-small-screen;
+		}
+
+		&__button {
+			height: 2rem;
+			width: 18%;
+
+		}
+	}
+}
+
+@media (max-width:$media-breakpoint-small-screen) {
+	.contact {
+		&__heading {
+			font-size: $heading2-font-size-small-screen;
+			padding-top: 1.5rem;
+			padding-left: 1.5rem;
+		}
+
+		&__visitingHeading, &__postalHeading {
+			font-size: $heading3-font-size-small-screen;
+			padding-left: 2.2rem;
+		}
+
+		&__text, &__postaltext {
+			font-size: $text-font-size-small-screen;
+			padding-left: 3rem;
+		}
+	}
+
+	.contactForm {
+		margin-top: 2rem;
+		margin-bottom: 0rem;
+
+		&__heading {
+			font-size: $heading3-font-size-small-screen;
+			padding-left: 1.2rem;
+		}
+
+		&__input {
+			width: 80%;
+			font-size: $inputTextBox-font-size;
+		}
+
+		&__button {
+			height: 2rem;
+			width: 18%;
+
+			&--text {
+				font-size: $buttonText-font-size-small-screen;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+

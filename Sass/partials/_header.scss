@@ -1,0 +1,134 @@
+.navbar{
+    background-color: $head-foot-backgroundColor;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.navbar .navbar-brand{
+    color: $logo-color !important;
+    font-family: $logofont;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-top: 1.5rem; 
+   }
+  
+  .navbar-nav a:link {
+    color:$active-link-color;
+    }
+  
+    .navbar-nav a:visited {
+    color:$visited-link-color;
+    }
+  
+    .navbar-nav a:hover {
+    color: $activehover-color;
+  }
+  
+  .navbar-nav a:active {
+    color:$active-link-color;
+  }
+
+   
+    .nav-tabs a:hover {
+    color: $activehover-color;
+  }
+  
+  
+
+  // media query
+  @media(max-width:$media-breakpoint-ipadPro){
+    .navbar img{
+      width: 90%;
+    }
+    navbar-brand .logo{
+      font-size: 3em;
+    }
+    .nav-item{
+      font-size: 1.5em;
+    }
+    .nav-tabs .nav-link{
+      font-size: 1em;
+    }
+  }
+ 
+  @media(max-width:$media-breakpoint-ipad){
+    .navbar img{
+      width: 90%;
+    }
+    navbar-brand .logo{
+      font-size: 3em;
+    }
+    .nav-item{
+      font-size: 1em;
+    }
+    .nav-tabs .nav-link{
+      font-size: 0.8em;
+    }
+  }
+
+   @media (max-width:$media-breakpoint-iphone6-7-8plus) {
+    .navbar img{
+      width: 90%;
+    }
+    .navbar .navbar-brand{
+      font-size: 1em;
+      padding-left: 0rem;
+      padding-right:4rem;
+    }
+    .nav-item{
+      font-size: 1em;
+    }
+  }
+
+  @media (max-width:$media-breakpoint-pixel2) {
+    
+    .navbar-toggler-icon{
+      margin-top:1.1rem;
+    }
+    
+  }
+
+  @media (max-width:$media-breakpoint-iphone6-7-8) {
+    .navbar img{
+      width: 90%;
+    }
+    .navbar .navbar-brand{
+      font-size: 1em;
+      padding-left: 0rem;
+      padding-right:3rem;
+    }
+    .nav-item{
+      font-size: 1em;
+    }
+  }
+  @media (max-width:$media-breakpoint-small-screen) {
+    
+    .navbar-toggler-icon{
+      margin-top:1.1rem;
+    }
+    .navbar .navbar-brand{
+      font-size: 1em;
+      padding-left: 0rem;
+      padding-right:1.2rem;
+    }
+    
+  }
+  
+  @media (max-width:$media-breakpoint-iphoneSE) {
+    .navbar img{
+      width: 90%;
+    }
+    .navbar .navbar-brand{
+      font-size: 1em;
+      padding-left: 0rem;
+      padding-right:0rem;
+    }
+    .navbar-toggler-icon{
+      margin-top:1rem;
+    }
+    .nav-item{
+      font-size: 1em;
+    }
+  }
+
