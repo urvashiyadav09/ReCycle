@@ -1,4 +1,5 @@
 .contact {
+	margin-top: 4rem;
 	&__heading {
 		font-family: $headingfont;
 		font-size: $heading2-font-size;
@@ -22,8 +23,8 @@
 }
 
 .contactForm {
-	margin-top: 4rem;
-	margin-bottom: 3.65rem;
+	margin-top: 8rem;
+	margin-bottom: 12rem;
 
 	&__heading {
 		font-family: $headingfont;
@@ -67,13 +68,13 @@
 
 		&__visitingHeading, &__postalHeading {
 			font-size: 1.3em;
-		
+
 		}
 
 		&__text, &__postaltext {
 			font-size: 1.3em;
 		}
-	}	
+	}
 
 	.contactForm {
 		margin-top: 4rem;
@@ -89,7 +90,7 @@
 
 		&__button {
 			height: 2.5rem;
-			
+
 
 			&--text {
 				font-size: 1.5em;
@@ -106,17 +107,17 @@
 
 		&__visitingHeading, &__postalHeading {
 			font-size: 1.2em;
-		
+
 		}
 
 		&__text, &__postaltext {
 			font-size: 1.1em;
 		}
-	}	
+	}
 
 	.contactForm {
 		margin-top: 3rem;
-	
+
 		&__heading {
 			font-size: 1.5em;
 		}
@@ -127,7 +128,7 @@
 
 		&__button {
 			height: 2.5rem;
-			
+
 
 			&--text {
 				font-size: 1.2em;
@@ -141,19 +142,19 @@
 			font-size: 1em;
 			padding-top: 1.5rem;
 			padding-left: 1.5rem;
-        } 
+        }
 
         &__visitingHeading, &__postalHeading {
 			font-size: 0.8em;
 			padding-left: 2.2rem;
         }
-        
+
         &__text, &__postaltext {
 			padding-left: 3rem;
 			font-size: 0.8em;
 		}
-    } 
-    
+    }
+
     .contactForm {
 		margin-top: 2rem;
 		margin-bottom: 0rem;
@@ -184,7 +185,7 @@
 			font-size: $heading2-font-size-small-screen;
 			padding-top: 1.5rem;
 			padding-left: 1.5rem;
-        } 
+        }
         &__visitingHeading, &__postalHeading {
 			font-size: $heading3-font-size-small-screen;
 			padding-left: 2.2rem;
@@ -193,8 +194,8 @@
 		&__text, &__postaltext {
 			padding-left: 3rem;
 		}
-    } 
-    
+    }
+
     .contactForm {
 		margin-top: 2rem;
 		margin-bottom: 0rem;
@@ -259,11 +260,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-

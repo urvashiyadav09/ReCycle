@@ -1,10 +1,10 @@
-.carousel-indicators .active {
-	background-color: $carsouel-indicator-color;
+.main__img {
+	width: 100%;
 }
 
 .nav-tabs {
     margin-top: 3rem;
-    
+
 }
 
 .tab-pane {
@@ -29,7 +29,7 @@
         &__img {
             padding-top: 0.3rem;
         }
-    }    
+    }
 }
 
 
@@ -46,11 +46,11 @@
 @media (max-width:$media-breakpoint-ipadPro) {
     .carousel__img{
         width: 100%;
-        height: 35vh;
+      
     }
     .smallScreenContent{
         display: none;
-    }  
+    }
     .nav-tabs{
         font-size: 1.5em;
         font-family: $headingfont;
@@ -63,26 +63,26 @@
            padding-top: 2rem;
             width: 35%;
             font-size: 1.4em;
-        } 
+        }
         &__galleryColumns {
             padding-left: 1rem;
                 &__img {
                 width:48%;
                 padding-top: 0.5rem;
             }
-        }      
-    }     
+        }
+    }
 }
 
 @media (max-width:$media-breakpoint-ipad) {
     .carousel__img{
         width: 100%;
-        height: 35vh;
-    } 
+
+    }
 
     .smallScreenContent{
         display: none;
-    }  
+    }
     .tab-pane {
         &__img {
            width: 60%;
@@ -92,15 +92,15 @@
             padding-top: 2rem;
             width: 35%;
             font-size: 1em;
-        } 
+        }
         &__galleryColumns {
             padding-left: 1rem;
                 &__img {
                 width:48%;
                 padding-top: 0.5rem;
             }
-        }      
-    }    
+        }
+    }
 }
 
 
@@ -108,9 +108,9 @@
 @media (max-width:$media-breakpoint-iphone6-7-8plus) {
     .carousel__img{
         width: 100%;
-        height: 26vh;
+
     }
-      
+
     .bigScreenSizeContent{
         display: none;
     }
@@ -146,16 +146,16 @@
 @media (max-width:$media-breakpoint-pixel2) {
     .carousel__img{
         width: 100%;
-        height: 28vh;
+
     }
     .bigScreenSizeContent{
         display: none;
     }
-    
+
     .smallScreenContent{
         display: block;
         padding-top:1rem;
-        
+
         &__insideColumns{
             &__heading2{
                 font-family: $headingfont;
@@ -180,20 +180,20 @@
                 }
             }
         }
-    } 
+    }
 }
 
 @media (max-width:$media-breakpoint-small-screen) {
     .carousel__img{
         width: 100%;
-        height: 26vh;
+
     }
-      
-    
+
+
     .bigScreenSizeContent{
         display: none;
     }
-    
+
     .smallScreenContent{
         display: block;
         padding-top:1rem;
@@ -222,17 +222,17 @@
             }
         }
     }
-    
+
 }
 @media (max-width:$media-breakpoint-iphoneSE) {
     .smallScreenContent{
         padding-top:0.5rem;
         &__insideColumns{
             &__heading2{
-                
+
                 font-size: 1em;
-                
-                
+
+
             }
         }
     }

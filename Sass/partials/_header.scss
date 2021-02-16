@@ -10,31 +10,37 @@
     font-size: 1.5em;
     font-weight: bold;
     padding-left: 0.5rem;
-    padding-top: 1.5rem; 
+    padding-top: 1.5rem;
    }
-  
+
+   .nav-link{
+     margin-right: 3rem;
+     font-weight: bold;
+     font-size: 1.3em;
+   }
+
   .navbar-nav a:link {
     color:$active-link-color;
     }
-  
+
     .navbar-nav a:visited {
     color:$visited-link-color;
     }
-  
+
     .navbar-nav a:hover {
     color: $activehover-color;
   }
-  
+
   .navbar-nav a:active {
     color:$active-link-color;
   }
 
-   
+
     .nav-tabs a:hover {
     color: $activehover-color;
   }
-  
-  
+
+
 
   // media query
   @media(max-width:$media-breakpoint-ipadPro){
@@ -51,7 +57,7 @@
       font-size: 1em;
     }
   }
- 
+
   @media(max-width:$media-breakpoint-ipad){
     .navbar img{
       width: 90%;
@@ -82,11 +88,11 @@
   }
 
   @media (max-width:$media-breakpoint-pixel2) {
-    
+
     .navbar-toggler-icon{
       margin-top:1.1rem;
     }
-    
+
   }
 
   @media (max-width:$media-breakpoint-iphone6-7-8) {
@@ -103,7 +109,7 @@
     }
   }
   @media (max-width:$media-breakpoint-small-screen) {
-    
+
     .navbar-toggler-icon{
       margin-top:1.1rem;
     }
@@ -112,9 +118,9 @@
       padding-left: 0rem;
       padding-right:1.2rem;
     }
-    
+
   }
-  
+
   @media (max-width:$media-breakpoint-iphoneSE) {
     .navbar img{
       width: 90%;
@@ -131,4 +137,3 @@
       font-size: 1em;
     }
   }
-
